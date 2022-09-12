@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/general.css'
 import OFA from '../images/OFA1.png';
 import M4Q from '../images/M4Q.png';
+import { Link } from 'react-router-dom';
 
 function Features() {
   return (
@@ -14,10 +15,10 @@ function Features() {
           </div>
           <div className='indicatorLogo'>
             <div className="pb-16" data-aos="zoom-out">
-              <a href="/indicators"><img className='ofa' src={OFA} width="400vw" height="auto" alt="Features"/></a>
+              <Link to="/indicators"><img className='ofa' src={OFA} width="400vw" height="auto" alt="Features"/></Link>
             </div>
             <div className="pb-16" data-aos="zoom-out">
-              <a href="/indicators"><img className='m4q' src={M4Q} width="400vw" height="auto" alt="Features"/></a>
+              <Link to="/indicators"><img className='m4q' src={M4Q} width="400vw" height="auto" alt="Features"/></Link>
             </div>
           </div>
           {/* Items */}
