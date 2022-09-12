@@ -7,7 +7,7 @@ import {
 
 import 'aos/dist/aos.css';
 import './css/style.css';
-
+import ScrollButton from './partials/ScrollButton';
 import AOS from 'aos';
 
 import Home from './pages/Home';
@@ -44,6 +44,7 @@ function App() {
         <Route path="/indicators" element={<Indicators />} />
         {/* <Route path="/reset-password" element={<ResetPassword />} /> */}
       </Routes>
+      <ScrollButton/>
     </>
   );
 }
