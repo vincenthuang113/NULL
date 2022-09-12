@@ -1,0 +1,298 @@
+/* Navbar Logo */
+.logoTitle:hover{
+    transition: all 0.3s ease;
+    color:white;
+    font-size: 20.3px;
+}
+.logoTitle{
+    font-size: 20px;
+    color: #ceaa77;
+}
+.null{
+    font-weight:800;
+}
+
+/* dropdown menu */
+.hamburger{
+    width: 2rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+    transition: transform 200ms ease-in-out 0s;
+}
+.burger{
+    width: 1.6rem;
+    height: 0.2rem;
+    border-radius: 10px;
+    background-color: white;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+}
+.close{
+    display: none;
+}
+.menuList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: solid 3px white;
+    border-radius: 3px;
+    font-size: 1.3vw;
+    padding: 0.2vw 1vw 0.2vw 1vw;
+}
+.drop{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    width:fit-content;
+    padding: 1vw;
+    z-index: 10;
+}
+.drop a:hover{
+    color: #dab27b;
+    transform: scale(1.1);
+}
+#navigation:hover .drop{
+    display: block;
+    margin-top: 0.9vw;
+    transition: ease-in 0.3s;
+    margin-right: -3.7vw;
+}
+#navigation:hover .hamburger{
+    transform: scale(1.1);
+}
+
+/* Punchline */
+.punchline{
+    color: #fadfb9;
+}
+/* .punchline span{
+    border-radius: 5px;
+    background-color: #2C3544;
+    padding: 5px;
+} */
+
+/* Discord Feature */
+.discordStuff{
+    margin-left: 8vw;
+}
+
+/* indicator */
+.indicatorLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ofa:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    border: white 10px;
+}
+.m4q:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    border: white 10px;
+}
+
+/* monthly pricing */
+.monthlyPricing{
+    color:#fadfb9;
+    font-weight: 800;
+}
+
+/* bg */
+.indicatorBg{
+    background-image: linear-gradient(to right, #121828,#273356,#121828);
+}
+
+.logoBg{
+    background-color: #ceaa77;
+}
+
+/* podcast */
+.podcast:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    border: white 10px;
+}
+.podcastDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+}
+.podcastTitle{
+    font-size: 2.4vw;
+    text-align: center;
+}
+.multimedia{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #192339;
+    border-radius: 50px;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+
+/* youtube */
+#youtubeLogo{
+    width: 15vw;
+    margin-top: -3vw;
+    margin-bottom: -2vw;
+    align-self: center;
+}
+#youtubeLogo:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.3);
+}
+.youtubeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.youtubeDiv a{
+    align-self: center;
+}
+iframe{
+    pointer-events: none; /* Disable any user interaction at all */
+    position: relative;
+    top: -64px;
+    margin-top: 3vw;
+    width: 100vw;
+}
+.wrap{
+    height: 40vw;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    /* dropdowm */
+    .drop{
+        background-color: #dab27b;
+        height: 100vh;
+        width: 100vw;
+    }
+    .drop a:hover{
+        color: #273356;
+    }
+    #navigation:hover .drop{
+        margin-top: -4vw;
+    }
+    .menuList{
+        margin-top: 10vw;
+        border: 0;
+        font-size: 6vw;
+    }
+    .close{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    /* hero */
+    .punchline{
+        margin-left: 19vw;
+        margin-right: 19vw;
+        background-color: #192339;
+        border-radius: 8px;
+    }
+    /* discord */
+    #discTop{
+        margin-left: 12vw;
+        margin-right: 11vw;
+    }
+    #discPhone{
+        margin-left: 12vw;
+    }
+    #discTitle{
+        margin-left: -6vw;
+    }
+    #discDesc{
+        margin-right: 5vw;
+    }
+    /* pressed logo */
+    .wrap {
+        display: none !important;
+    }
+    .podcastTitle{
+        transform: scale(2);
+    }
+    .podcast{
+        width: 20vw;
+    }
+    .card{
+        margin: 3vw;
+    }
+    #youtubeLogo{
+        margin-top: -2vw;
+        width: 20vw;
+    }
+    #aboutus{
+        display: none;
+    }
+}
+
+
+/* last */
+.lastSec{
+    background-color: #111827;
+}
+/* empty */
+.empty{
+    height: 7vw;
+    width: 100%;
+    background-color: #ceaa77;
+    margin-bottom: 2vw;
+}
+/* footer */
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+/* aboutus */
+#aboutus{
+    background-image: linear-gradient(#111827,#1e2842,#111827);
+}
+.aboutusDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stateCard{
+    border-radius: 50px;
+    background-color: #192338;
+    box-shadow: 0 4px 16px 0 rgba(255,255,255,0.3);
+    margin: 1.2vw;
+    padding: 2vw;
+}
+.statement{
+    color: orange;
+    font-weight: 600;
+}
+.stateCard h1{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 0.3vw;
+    font-weight: 800;
+}
+.stateCard h4{
+    font-size: 1.2vw;
+}
+.stateCard h3{
+    font-size: 1.3vw;
+}
+.profDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profDiv img{
+    width: 11vw;
+}

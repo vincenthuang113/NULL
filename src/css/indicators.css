@@ -1,0 +1,119 @@
+.indiTit{
+    font-size: 12vw;
+    text-align: center;
+    margin: 5vw;
+    margin-bottom: 0vw;
+    font-weight: 800;
+}
+.indiDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5vw;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    /* border: solid 2px red; */
+}
+.indiImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 2vw;
+}
+
+.indiDiv img{
+    width: 180vw;
+}
+.ofaInfo{
+    padding: 3.1vw;
+    margin-left: 2vw;
+    /* border-radius: 50px;
+    background-color: #1c2841;
+    box-shadow: 0 4px 16px 0 rgba(255, 255, 255, 0.256); */
+    /* border: solid 2px white; */
+}
+
+.ofaInfo h1{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.ofaInfo h6{
+    margin-top: -8vw;
+    font-size: 1.5vw;
+    color: rgba(255, 255, 255, 0.768);
+}
+#ofaAlert{
+    margin-top: 1.5vw;
+    font-size: 1vw;
+    color: rgb(187, 31, 31);
+}
+
+.carouselDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ceaa77;
+    padding: 2vw;
+
+}
+.carousel .slide{
+    height: 60vh;
+    width: 10vw;
+}
+.chartSize{
+    width: auto;
+    
+}
+.indiInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2vw;
+    
+}
+.i{
+    width: 40vw;
+}
+.ii{
+    background-color: black;
+    border-bottom: solid #192339 0.8vw;
+    border-right: solid white 10vw;
+    padding: 1vw;
+    font-weight: 800;
+}
+.iii{
+    background-color: #192339;
+    padding: 1vw;
+    padding-top: 0.2vw;
+    color: white;
+}
+#gongNeng{
+    font-size: 3.8vw;
+    font-weight: 800;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+}
+@media screen and (max-width: 1024px) {
+.ofaInfo h6{
+    font-size: 2.8vw;
+}
+#ofaAlert{
+    font-size: 2.3vw;
+    margin-bottom: 4vw;
+}
+.carouselDiv{
+    flex-direction: column;
+}
+#gongNeng{
+    text-align: center;
+    font-size: 6vw;
+    margin-left: 0vw;
+}
+.i{
+    width: 92vw;
+}
+.indiDiv{
+    margin-bottom: 0vw;
+}
+
+}
