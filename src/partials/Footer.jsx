@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/newLogo.png';
+// import logo from '../images/newLogo.png';
 import "../css/general.css";
 
 function Footer() {
@@ -12,7 +12,7 @@ function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-4 lg:max-w-xs">
             <div className="mb-2">
-              <img src={logo} alt="" className="w-17 h-12" viewBox="0 0 32 32"/>
+              {/* <img src={logo} alt="" className="w-17 h-12" viewBox="0 0 32 32"/> */}
               {/* <Link className="inline-flex" to="/" aria-label="Cruip">
                 <svg className="w-8 h-8" viewBox="0 0 32 32" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
