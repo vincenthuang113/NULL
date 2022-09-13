@@ -95,18 +95,21 @@
 }
 @media screen and (max-width: 1024px) {
 .ofaInfo h6{
-    font-size: 2.8vw;
+    font-size: 3.2vw;
 }
 #ofaAlert{
-    font-size: 2.3vw;
+    font-size: 2.8vw;
     margin-bottom: 4vw;
 }
 .carouselDiv{
     flex-direction: column;
 }
+.carousel .slide{
+    height: 38vh;
+}
 #gongNeng{
     text-align: center;
-    font-size: 6vw;
+    font-size: 7vw;
     margin-left: 0vw;
 }
 .i{

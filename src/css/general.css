@@ -186,6 +186,9 @@ iframe{
     #navigation:hover .drop{
         margin-top: -4vw;
     }
+    #closeAbout{
+        display: none;
+    }
     .menuList{
         margin-top: 10vw;
         border: 0;
@@ -232,7 +235,7 @@ iframe{
     }
     #youtubeLogo{
         margin-top: -2vw;
-        width: 20vw;
+        width: 30vw;
     }
     #aboutus{
         display: none;
