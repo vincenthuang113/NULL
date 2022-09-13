@@ -26,10 +26,10 @@ function Hero() {
               <div className="relative text-sm text-gray-300 bg-gray-800 rounded-full inline-block px-4 py-1 mb-6 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                 <div className="text-gray-400">
                   NULL OFA指標即將上線{' '}
-                  <a className="font-medium text-blue-500 inline-flex items-center transition duration-150 ease-in-out group" href="http://nullinvesting.com/indicators">
+                  <Link className="font-medium text-blue-500 inline-flex items-center transition duration-150 ease-in-out group" to="/indicators">
                     詳細資訊{' '}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

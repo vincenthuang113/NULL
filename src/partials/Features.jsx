@@ -15,10 +15,10 @@ function Features() {
           </div>
           <div className='indicatorLogo'>
             <div className="pb-16" data-aos="zoom-out">
-              <a  href="https://discord.com/invite/ScJdWjDNVw"><img className='ofa' src={OFA} width="400vw" height="auto" alt="Features"/></a>
+              <Link to="/indicators"><img className='ofa' src={OFA} width="400vw" height="auto" alt="Features"/></Link>
             </div>
             <div className="pb-16" data-aos="zoom-out">
-              <a  href="https://discord.com/invite/ScJdWjDNVw"><img className='m4q' src={M4Q} width="400vw" height="auto" alt="Features"/></a>
+              <Link to="/indicators"><img className='m4q' src={M4Q} width="400vw" height="auto" alt="Features"/></Link>
             </div>
           </div>
           {/* Items */}

@@ -41,7 +41,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         {/* <Route path="/aboutus" element={<AboutUs />} /> */}
-        <Route path="/indicators" element={<Indicators />} />
+        <Route exact path="/indicators" element={<Indicators />} />
         {/* <Route path="/reset-password" element={<ResetPassword />} /> */}
       </Routes>
       <ScrollButton/>
