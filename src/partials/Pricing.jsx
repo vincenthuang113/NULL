@@ -17,7 +17,7 @@ function Pricing() {
             <h2 className="h2 font-uncut-sans mb-4">黃金指標價格</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-400">
-                價格已半年/一年會員制進行，詳請請洽NULL團隊
+                價格以半年/一年會員制進行，詳請請洽NULL團隊
               </p>
             </div>
           </div>
