@@ -17,7 +17,7 @@ function Features02() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans mb-4">從零到一的一站式討論平台</h2>
+            <h2 className="h2 font-uncut-sans mb-4">從零到一的一站式平台</h2>
             <div className="max-w-2xl mx-auto">
               <p id="discTop" className="text-xl text-gray-400">加入我們分享與討論各種財經投資資訊，不論是台股、美股、幣圈、外匯，或甚至是房產、財經管理等等都能有所收穫，快與我們共同成長吧！</p>
             </div>
