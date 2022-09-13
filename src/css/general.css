@@ -201,8 +201,8 @@ iframe{
     }
     /* hero */
     .punchline{
-        margin-left: 18.5vw;
-        margin-right: 18.5vw;
+        margin-left: 17vw;
+        margin-right: 17vw;
         background-color: #192339;
         border-radius: 8px;
     }
@@ -234,8 +234,8 @@ iframe{
         margin: 3vw;
     }
     #youtubeLogo{
-        margin-top: -2vw;
-        width: 30vw;
+        margin-top: -6vw;
+        width: 35vw;
     }
     #aboutus{
         display: none;
@@ -299,3 +299,6 @@ iframe{
 .profDiv img{
     width: 11vw;
 }
+
+
+

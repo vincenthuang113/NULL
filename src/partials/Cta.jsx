@@ -16,7 +16,7 @@ function Cta() {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
               <h3 className="text-4xl font-bold font-uncut-sans mb-2">合作與投稿</h3>
-              <p className="text-blue-200">歡迎各位投資高手與我們合作、投稿，甚至是加入我們的團隊！<br/>請於Discord裡和任何一位NULL成員進行聯繫！</p>
+              <p className="text-blue-200">歡迎各位投資高手們與我們合作、投稿，甚至是加入我們的團隊！<br/>請於Discord和任何NULL成員進行聯繫！</p>
             </div>
             {/* CTA button */}
             <div className="shrink-0">
