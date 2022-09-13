@@ -37,7 +37,7 @@ function Hero() {
               Invest. <br />Together. <em className="font-italic">Passionately.</em>
             </h1>
             <p className="punchline text-xl text-white-400 mb-10" data-aos="zoom-out" data-aos-delay="200">
-              <span>NULL Investing即刻捕捉投資從零到一的一站式討論平台</span>
+              <span>NULL Investing即刻捕捉投資從零到一的一站模式討論平台</span>
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4"
