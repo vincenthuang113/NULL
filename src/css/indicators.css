@@ -105,15 +105,17 @@
     flex-direction: column;
 }
 .carousel .slide{
-    height: 38vh;
+    height: 35vh;
 }
 #gongNeng{
     text-align: center;
     font-size: 7vw;
     margin-left: 0vw;
+    margin-top: -1vw;
 }
 .i{
     width: 92vw;
+    margin-bottom: 1.2vw;
 }
 .indiDiv{
     margin-bottom: 0vw;

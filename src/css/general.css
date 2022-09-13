@@ -192,7 +192,7 @@ iframe{
     .menuList{
         margin-top: 10vw;
         border: 0;
-        font-size: 6vw;
+        font-size: 8vw;
     }
     .close{
         display: flex;
@@ -201,8 +201,8 @@ iframe{
     }
     /* hero */
     .punchline{
-        margin-left: 19vw;
-        margin-right: 19vw;
+        margin-left: 18.5vw;
+        margin-right: 18.5vw;
         background-color: #192339;
         border-radius: 8px;
     }
