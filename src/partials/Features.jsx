@@ -11,7 +11,7 @@ function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">NULL Investing<br/>黃金指標</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">NULL Investing<br/>OFA指標</h2>
           </div>
           <div className='indicatorLogo'>
             {/* <div className="pb-16" data-aos="zoom-out">
