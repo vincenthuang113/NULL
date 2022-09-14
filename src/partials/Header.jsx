@@ -37,7 +37,7 @@ function Header() {
                 <div className="menuList">
                   <AnLink to="aboutus" id="closeAbout" spy={true} smooth={true} offset={50} duration={500}>關於我們</AnLink>
                   <AnLink to="discord" spy={true} smooth={true} offset={50} duration={500}>Discord</AnLink>
-                  <AnLink to="indicator" spy={true} smooth={true} offset={50} duration={500}>黃金指標</AnLink>
+                  <AnLink to="indicator" spy={true} smooth={true} offset={50} duration={500}>NULL OFA指標</AnLink>
                   <AnLink to="multimedia" spy={true} smooth={true} offset={50} duration={500}>Podcast</AnLink>
                   <AnLink to="partner" spy={true} smooth={true} offset={50} duration={500}>合作|投稿</AnLink>
 
