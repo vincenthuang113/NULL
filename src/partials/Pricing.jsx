@@ -14,7 +14,7 @@ function Pricing() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans mb-4">黃金指標價格</h2>
+            <h2 className="h2 font-uncut-sans mb-4">NULL OFA指標價格</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-400">
                 為確保品質，指標販售有限人數
@@ -130,7 +130,7 @@ function Pricing() {
             {/* Pricing table 3 */}
             <div className="relative flex flex-col h-full p-6" data-aos="zoom-out" data-aos-delay="200">
               <div className="mb-6">
-                <div className="text-lg font-semibold mb-1">M4Q</div>
+                <div className="text-lg font-semibold mb-1">NULL OFA</div>
                 <div className="font-uncut-sans inline-flex items-baseline mb-2">
                   <span className="text-3xl font-medium text-gray-400">$</span>
                   <span className="text-4xl font-bold leading-7">270</span>
