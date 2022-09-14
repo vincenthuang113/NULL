@@ -82,14 +82,14 @@
     background-color: black;
     border-bottom: solid white 0.2vw;
     border-right: solid white 10vw;
-    padding: 1vw;
+    padding: 10px;
     font-weight: 800;
 
     border-radius: 10px 10px 0 0;
 }
 .iii{
     background-color: #192339;
-    padding: 1vw;
+    padding: 10px;
     padding-top: 0.2vw;
     color: white;
     border-bottom: white 5px solid;
