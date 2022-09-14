@@ -17,7 +17,7 @@ function Pricing() {
             <h2 className="h2 font-uncut-sans mb-4">黃金指標價格</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-400">
-                價格以半年/一年會員制進行，詳請請洽NULL團隊
+                為確保品質，指標販售有限人數，詳請請洽NULL團隊
               </p>
             </div>
           </div>
@@ -29,11 +29,11 @@ function Pricing() {
                 <div className="text-lg font-semibold mb-1">NULL OFA</div>
                 <div className="font-uncut-sans inline-flex items-baseline mb-2">
                   <span className="text-3xl font-medium text-gray-400">$</span>
-                  <span className="text-4xl font-bold leading-7">420</span>
-                  <span className="font-medium text-gray-400">/年 (USD)</span>
+                  <span className="text-4xl font-bold leading-7">200</span>
+                  <span className="font-medium text-gray-400">/三個月 (USDT)</span>
                 </div>
-                <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$35/月</span><br/>指標核心系統建立於趨勢及價格變動理論以致低延遲訊號</div>
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://docs.google.com/forms/d/e/1FAIpQLSdL0vXg-J6rUg8Hcm6DnsNexwO2B82Fdqn3u61yPqyYUGF6lw/viewform?usp=sf_link" target="_blank">
+                <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$66.66/月</span><br/>名額開放有限，請把握機會！</div>
+                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/coUNRJ7t65D2ywde9" target="_blank">
                   立即測試{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
@@ -79,14 +79,14 @@ function Pricing() {
                 </div>
               </div>
               <div className="mb-6">
-                <div className="text-lg font-semibold mb-1">NULL OFA + M4Q</div>
+                <div className="text-lg font-semibold mb-1">NULL OFA</div>
                 <div className="font-uncut-sans inline-flex items-baseline mb-2">
                   <span className="text-3xl font-medium text-gray-400">$</span>
-                  <span className="text-4xl font-bold leading-7">720</span>
-                  <span className="font-medium text-gray-400">/年 (USD)</span>
+                  <span className="text-4xl font-bold leading-7">420</span>
+                  <span className="font-medium text-gray-400">/年 (USDT)</span>
                 </div>
-                <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$60/月</span><br/>NULL OFA與M4Q併用能夠達到最高勝率</div>
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://docs.google.com/forms/d/e/1FAIpQLSdL0vXg-J6rUg8Hcm6DnsNexwO2B82Fdqn3u61yPqyYUGF6lw/viewform?usp=sf_link" target="_blank">
+                <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$35/月</span><br/>名額開放有限，請把握機會！</div>
+                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/coUNRJ7t65D2ywde9" target="_blank">
                     立即測試{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
@@ -99,7 +99,7 @@ function Pricing() {
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>享有併購85折優惠</span>
+                  <span>享有將近5折優惠</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -111,19 +111,13 @@ function Pricing() {
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>NULL與Max專人指導</span>
-                </li>
-                <li className="flex items-center">
-                  <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                  </svg>
                   <span>專業復盤分析分享</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>高勝率進出場點與輔助工具</span>
+                  <span>優先受服權益</span>
                 </li>
                 {/* <li className="flex items-center">
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -139,11 +133,11 @@ function Pricing() {
                 <div className="text-lg font-semibold mb-1">M4Q</div>
                 <div className="font-uncut-sans inline-flex items-baseline mb-2">
                   <span className="text-3xl font-medium text-gray-400">$</span>
-                  <span className="text-4xl font-bold leading-7">420</span>
-                  <span className="font-medium text-gray-400">/月</span>
+                  <span className="text-4xl font-bold leading-7">270</span>
+                  <span className="font-medium text-gray-400">/半年 (USDT)</span>
                 </div>
-                <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$35/月</span><br/>我不知道他不給我</div>
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://docs.google.com/forms/d/e/1FAIpQLSdL0vXg-J6rUg8Hcm6DnsNexwO2B82Fdqn3u61yPqyYUGF6lw/viewform?usp=sf_link" target="_blank">
+                <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$45/月</span><br/>名額開放有限，請把握機會！</div>
+                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/coUNRJ7t65D2ywde9" target="_blank">
                     立即測試{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
@@ -152,29 +146,29 @@ function Pricing() {
               </div>
               <div className="font-medium mb-4">指標功能:</div>
               <ul className="text-gray-400 space-y-3 grow">
-                <li className="flex items-center">
+              <li className="flex items-center">
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>他說晚點給但還沒給</span>
+                  <span>多元化市場應用</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>人就搞失蹤了</span>
+                  <span>會員專用Channel</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>該開會了</span>
+                  <span>獨家設計開發K線(O-Chart)</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>謝謝</span>
+                  <span>更多附加輔助工具</span>
                 </li>
               </ul>
             </div>

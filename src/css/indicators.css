@@ -1,3 +1,6 @@
+#indiSec{
+    background-image: linear-gradient(to right, #121828,#273356,#121828);
+}
 .indiTit{
     font-size: 12vw;
     text-align: center;
@@ -13,6 +16,7 @@
     margin-left: 16vw;
     margin-right: 16vw;
     /* border: solid 2px red; */
+
 }
 .indiImg{
     display: flex;
@@ -45,7 +49,7 @@
 #ofaAlert{
     margin-top: 1.5vw;
     font-size: 1vw;
-    color: rgb(187, 31, 31);
+    color: rgb(231, 36, 36);
 }
 
 .carouselDiv{
@@ -76,16 +80,21 @@
 }
 .ii{
     background-color: black;
-    border-bottom: solid #192339 0.8vw;
+    border-bottom: solid white 0.2vw;
     border-right: solid white 10vw;
     padding: 1vw;
     font-weight: 800;
+
+    border-radius: 10px 10px 0 0;
 }
 .iii{
     background-color: #192339;
     padding: 1vw;
     padding-top: 0.2vw;
     color: white;
+    border-bottom: white 5px solid;
+
+    border-radius: 0 0 10px 10px;
 }
 #gongNeng{
     font-size: 3.8vw;

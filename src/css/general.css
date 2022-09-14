@@ -83,9 +83,24 @@
 /* indicator */
 .indicatorLogo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
+#upup{
+    text-align: center;
+    margin-bottom: 5vw;
+    margin-top: -4vw;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-4px)
+    }
+  }
 
 .ofa:hover{
     transition: all 0.3s ease;
@@ -302,3 +317,76 @@ iframe{
 
 
 
+/* ofaLogo */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+.ofaLogo {
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%; */
+    transform: translate(0%, -50%);
+    display: block;
+    color: #dab27b;
+    font-size: 20vw;
+    font-weight: 800;
+    /* letter-spacing: 1px; */
+    cursor: pointer;
+
+  }
+  
+  .ofaLogo::before {
+    content: "[OFA]";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      45deg,
+      /* transparent 0, */
+      /* transparent 2px, */
+      white 2px,
+      white 4px
+    );
+    -webkit-background-clip: text;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+  }
+  
+  .ofaLogo::after {
+    content: "[OFA]";
+    position: absolute;
+    color: transparent;
+    background-image: repeating-linear-gradient(
+      135deg,
+      /* transparent 0,
+      transparent 2px, */
+      #ffddad 2px,
+      #ffddad 4px
+    );
+    -webkit-background-clip: text;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+  }
+  
+  .ofaLogo:hover:before {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .ofaLogo:hover:after {
+    top: -10px;
+    left: -10px;
+  } 
+  .ofaCon {
+    padding: 0;
+    margin-top: 10vw;
+    margin-bottom: -11vw;
+    font-family: 'Poppins', sans-serif;
+    /* background: black; */
+    /* height: 100vh; */
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  

@@ -14,12 +14,16 @@ function Features() {
             <h2 className="h2 font-uncut-sans" data-aos="zoom-out">NULL Investing<br/>黃金指標</h2>
           </div>
           <div className='indicatorLogo'>
-            <div className="pb-16" data-aos="zoom-out">
+            {/* <div className="pb-16" data-aos="zoom-out">
               <Link to="/indicators"><img className='ofa' src={OFA} width="400vw" height="auto" alt="Features"/></Link>
+            </div> */}
+            <div className="ofaCon">
+            <Link to="/indicators"><h1 className='ofaLogo'>[OFA]</h1></Link>
             </div>
-            <div className="pb-16" data-aos="zoom-out">
-              <Link to="/indicators"><img className='m4q' src={M4Q} width="400vw" height="auto" alt="Features"/></Link>
-            </div>
+            <h1 id='upup'>⬆點擊上方⬆</h1>
+            {/* <div className="pb-16" data-aos="zoom-out">
+              <img className='m4q' src={M4Q} width="400vw" height="auto" alt="Features"/>
+            </div> */}
           </div>
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
