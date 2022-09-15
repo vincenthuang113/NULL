@@ -33,7 +33,7 @@ function Testimonials() {
             <h2 className="h2 font-uncut-sans">NULL's Multimedia</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-400">
-                多媒體資訊|Podcast|Live直播
+                多媒體資訊｜Podcast｜Live直播
               </p>
             </div>
           </div>
