@@ -106,7 +106,7 @@ function Indicators(){
                 </AccordionItemHeading>
                 <AccordionItemPanel className="iii">
                     <p>
-                    NULL團隊獨家設計的Objective-Chart(O-Chart)應用了趨勢、支撐、壓力的概念來取代傳統Candle-Stick Chart。 O-Chart的優勢在於能客觀承認趨勢與確認行情，上漲/下跌過程中O-Chart取代的Candle-Sticks會顯示不同顏色。
+                    NULL團隊獨家設計的Objective-Chart(O-Chart)應用了趨勢、支撐、壓力的概念來取代傳統K線。 O-Chart的優勢在於能客觀承認趨勢與確認行情，上漲/下跌過程中O-Chart取代的Candle-Sticks會顯示不同顏色。
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>

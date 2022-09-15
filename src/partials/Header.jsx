@@ -40,10 +40,6 @@ function Header() {
                   <AnLink to="indicator" spy={true} smooth={true} offset={50} duration={500}>OFA指標</AnLink>
                   <AnLink to="multimedia" spy={true} smooth={true} offset={50} duration={500}>Podcast</AnLink>
                   <AnLink to="partner" spy={true} smooth={true} offset={50} duration={500}>合作|投稿</AnLink>
-
-                  {/* <div className="close">
-                    <h1>x</h1>
-                  </div> */}
                 </div>
               </div>
             </ul>

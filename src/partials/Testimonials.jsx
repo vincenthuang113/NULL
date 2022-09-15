@@ -1,16 +1,6 @@
 import React from 'react';
 import Youtube from 'react-youtube';
 
-// import TestimonialsImage01 from '../images/testimonial-01.jpg';
-// import TestimonialsImage02 from '../images/testimonial-02.jpg';
-// import TestimonialsImage03 from '../images/testimonial-03.jpg';
-// import TestimonialsImage04 from '../images/testimonial-04.jpg';
-// import TestimonialsImage05 from '../images/testimonial-05.jpg';
-// import TestimonialsImage06 from '../images/testimonial-06.jpg';
-// import TestimonialsImage07 from '../images/testimonial-07.jpg';
-// import TestimonialsImage08 from '../images/testimonial-08.jpg';
-// import TestimonialsImage09 from '../images/testimonial-09.jpg';
-
 import firststoryLogo from '../images/firststory.png';
 import applepodLogo from '../images/applepod.png';
 import spotifyLogo from '../images/spotify.png';
@@ -25,7 +15,6 @@ function Testimonials() {
       {/* Bg gradient: top */}
       <div className="absolute top-0 left-0 right-0 bg-gradient-to-b from-gray-800 to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10" aria-hidden="true" />
       {/* Bg gradient: bottom */}
-      {/* <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-900 to-transparent h-[15rem] pointer-events-none z-10" aria-hidden="true" /> */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
@@ -62,9 +51,6 @@ function Testimonials() {
       <div className='wrap'>
         <iframe width="1520vw" height="630vw"src="https://www.youtube.com/embed/CA2_1RQOxB8?fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=2&vq=hd1080&autoplay=1&loop=1&playlist=CA2_1RQOxB8&mute=1&showinfo=0&controls=0"data-aos="zoom-out"></iframe>
       </div>
-      {/* <div>
-        <h1 className='podcastTitle'>直撥每週定期上線，詳情請加入Discord或到NULL IG關注</h1>
-      </div> */}
       
     </section>
     

@@ -11,11 +11,10 @@ import ScrollButton from './partials/ScrollButton';
 import AOS from 'aos';
 
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
+
 import AboutUs from './pages/Aboutus';
 import Indicators from './pages/Indicators';
-import ResetPassword from './pages/ResetPassword';
+
 
 function App() {
 
@@ -42,7 +41,6 @@ function App() {
         <Route exact path="/" element={<Home />} />
         {/* <Route path="/aboutus" element={<AboutUs />} /> */}
         <Route exact path="/indicators" element={<Indicators />} />
-        {/* <Route path="/reset-password" element={<ResetPassword />} /> */}
       </Routes>
       <ScrollButton/>
     </>
