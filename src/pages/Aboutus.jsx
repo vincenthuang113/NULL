@@ -21,10 +21,10 @@ function AboutUs(){
                 </div>
                 <div className="stateCard" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-testimonials]">
                     <h3 className='statement'>OUR MISSION</h3>
-                    <h1>乘載我們堅持的核心理念</h1>
+                    <h1>秉持著我們的核心理念</h1>
                     <h4>Integrity, Transparency<br/>
                         Ethics, Client-Centric<br/>
-                        正直|透明|道德|客戶導向<br/>
+                        正直｜透明｜道德｜客戶導向<br/>
                         秉持著回饋社會的精神與態度<br/>
                         期盼一天能為台灣金融環境<br/>
                         帶來正向的改變</h4>
