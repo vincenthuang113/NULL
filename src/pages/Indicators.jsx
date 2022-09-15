@@ -84,7 +84,7 @@ function Indicators(){
                 </div>
             </Carousel> 
             <div className="indiInfo">
-            <h1 id="gongNeng">功能說明</h1>
+            <h1 id="gongNeng">功能簡介</h1>
             <Accordion className="i">
             <AccordionItem>
                 <AccordionItemHeading>
