@@ -24,8 +24,8 @@ function AboutUs(){
                     <h1>秉持我們的核心理念</h1>
                     <h4>Integrity, Transparency<br/>
                         Ethics, Client-Centric<br/>
-                        正直、透明、道德、客戶導向<br/>
-                        我們秉持回饋社會的精神與態度<br/>
+                        正直|透明|道德|客戶導向<br/>
+                        秉持著回饋社會的精神與態度<br/>
                         期盼一天能為台灣金融環境<br/>
                         帶來正向的改變</h4>
                 </div>
