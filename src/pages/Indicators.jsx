@@ -51,10 +51,11 @@ function Indicators(){
             <div className="ofaInfo" data-aos='zoom-in' data-aos-delay='250'>
                 {/* <h1 data-aos='fade-down' data-aos-delay='300'>NULL OFA 指標</h1> */}
                 <h6 data-aos='fade-down' data-aos-delay='350'>
-                    One For All (OFA) 指標為NULL Investing LLC團隊獨家開發的投資產品買賣指標適用於TradingView平台。
-                    OFA指標核心系統建立於趨勢及價格變動理論以致低延遲訊號顯示，為了迎合使用者主觀操盤OFA指標價值提供不只買賣訊號，
-                    OFA指標也提供NULL團隊獨家設計的K線(O-Chart)、
-                    超級趨勢線、雲帶盤整訊號作為操盤輔助讓使用者真正擁有一個One For All的投資輔助工具。
+                    One For All (OFA) 量化指標為NULL Investing LLC團隊獨家開發的投資產品買賣指標適用於TradingView平台。
+                    OFA指標核心系統建立於趨勢及價格變動理論以致低延遲訊號顯示，
+                    為了迎合使用者主觀操盤 OFA指標價值提供不只買賣訊號，
+                    OFA指標也提供NULL團隊獨家設計的K線 (O-Chart)、NULL Trend、雲帶盤整訊號 C-Check、
+                    正弦函數盤整訊號 B-Check作為操盤輔助讓使用者真正擁有一個One For All的投資輔助工具。
                     <br/><br/>適用市場: 全球股市｜台股｜美股｜港股｜期貨｜虛擬貨幣｜外匯</h6>
                 <h4 id='ofaAlert' data-aos='fade-down' data-aos-delay='ˇ350'>因OFA指標邏輯運用上持有價量元素，投資商品必須有交易量否則 OFA無法正常使用</h4>
             </div>

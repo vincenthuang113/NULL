@@ -14,7 +14,7 @@ import Home from './pages/Home';
 
 import AboutUs from './pages/Aboutus';
 import Indicators from './pages/Indicators';
-
+import Comingsoon from './pages/Comingsoon';
 
 function App() {
 
@@ -41,6 +41,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         {/* <Route path="/aboutus" element={<AboutUs />} /> */}
         <Route exact path="/indicators" element={<Indicators />} />
+        <Route exact path='/comingsoon' element={<Comingsoon />}/>
       </Routes>
       <ScrollButton/>
     </>

@@ -235,6 +235,9 @@ iframe{
     #discDesc{
         margin-right: 5vw;
     }
+
+
+
     /* pressed logo */
     .wrap {
         display: none !important;
@@ -390,3 +393,39 @@ iframe{
     justify-content: center;
   }
   
+
+
+  /* comingsoon */
+  #comingsoon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10vw;
+  }
+  .comingwords{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .comingwords h1{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .comingwords h2{
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 1vw;
+    padding-bottom: 0.2vw;
+    /* text-align: center; */
+  }
+  .comingwords h4{
+    font-size: 20px;
+    font-weight: 300;
+    color: red;
+  }
+  .comingwords a{
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+    text-decoration: underline white;
+  }

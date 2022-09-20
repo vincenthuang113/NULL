@@ -60,6 +60,7 @@ function Features02() {
               <img id="discPhone" className="mx-auto md:max-w-none" src={FeaturesImage} width="540" height="581" alt="Features" />
             </div>
           </div>
+
         </div>
       </div>
     </section>

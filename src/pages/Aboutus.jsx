@@ -29,6 +29,17 @@ function AboutUs(){
                         期盼一天能為台灣金融環境<br/>
                         帶來正向的改變</h4>
                 </div>
+                {/* Section */}
+                <div className="stateCard" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-testimonials]">
+                    <h3 className='statement'>OUR SERVICE</h3>
+                    <h1>全面性的「一站式平台」</h1>
+                    <h4>此平台主要價值主張：<br/>
+                    1. 從零到一的投資教學<br/>
+                    2. 閒話到投資的開放討論空間<br/>
+                    3. 各式精彩活動及會員回饋<br/>
+                    4. Podcast與直播<br/>
+                    5. 獨家研發的量化策略</h4>
+                </div>
                 <div className="profDiv">
                     {/* <CarouselProf/> */}
                 </div>
