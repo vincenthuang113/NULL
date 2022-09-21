@@ -77,23 +77,29 @@
 }
 .i{
     width: 40vw;
+    /* border: white solid 4px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 16px 0 rgba(255,255,255,0.3);
 }
 .ii{
-    background-color: black;
-    border-bottom: solid white 0.2vw;
-    border-right: solid white 10vw;
+    background-color: #8e734e;
+    border-bottom: solid white 0.1vw;
+    border-right: solid white 0px;
     padding: 10px;
     font-weight: 800;
 
     border-radius: 10px 10px 0 0;
 }
+.ii:hover{
+    background-color: #b49364;
+}
 .iii{
-    background-color: #192339;
-    padding: 10px;
-    padding-top: 0.2vw;
+    background-color: #122620;
+    padding: 15px;
+    padding-top: 0.7vw;
     color: white;
     border-bottom: white 5px solid;
-
+    font-weight: 500;
     border-radius: 0 0 10px 10px;
 }
 #gongNeng{
