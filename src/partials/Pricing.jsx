@@ -17,7 +17,7 @@ function Pricing() {
             <h2 className="h2 font-uncut-sans mb-4">NULL OFA指標價格</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-400">
-                為確保品質，指標販售有限人數｜詳情請關注NULL IG與Discord
+                為確保品質，指標販售有限人數<br/>詳情請關注NULL IG與Discord
               </p>
             </div>
           </div>

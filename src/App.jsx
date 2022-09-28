@@ -41,7 +41,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         {/* <Route path="/aboutus" element={<AboutUs />} /> */}
         <Route exact path="/indicators" element={<Indicators />} />
-        <Route exact path='/comingsoon' element={<Comingsoon />}/>
+        <Route exact path="/comingsoon" element={<Comingsoon />}/>
       </Routes>
       <ScrollButton/>
     </>
