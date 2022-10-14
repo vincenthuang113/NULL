@@ -7,6 +7,9 @@ import chart2 from  '../images/ofaC2.png';
 import chart3 from  '../images/ofaC3.png';
 import chart4 from  '../images/ofaC4.png';
 import chart5 from  '../images/ofaC5.png';
+import aapl from '../images/aapl.png';
+import tsmc from '../images/tsmc.png';
+import eth from '../images/eth.png';
 import '../css/indicators.css';
 import { Carousel } from "react-responsive-carousel";
 import { Link } from 'react-router-dom';
@@ -60,6 +63,31 @@ function Indicators(){
                 <h4 id='ofaAlert' data-aos='fade-down' data-aos-delay='ˇ350'>因OFA指標邏輯運用上持有價量元素，投資商品必須有交易量否則 OFA無法正常使用</h4>
             </div>
         </div>
+        <div className="returns">
+            <div className="aboutusDiv1" data-aos-id-testimonials>
+                    <div className="stateCard1" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonials]">
+                        <h3 className='statement1'>AAPL</h3>
+                        <div className="returnsimg">
+                            <img src={aapl} alt="" />
+                        </div>
+                        <h1>回測收益率 125.3%</h1>
+                    </div>
+                    <div className="stateCard1" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonials]">
+                        <h3 className='statement1'>TSMC</h3>
+                        <div className="returnsimg">
+                            <img id="tsmc" src={tsmc} alt="" />
+                        </div>
+                        <h1>回測收益率 91.32%</h1>
+                    </div>
+                    <div className="stateCard1" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonials]">
+                        <h3 className='statement1'>ETH</h3>
+                        <div className="returnsimg">
+                            <img src={eth} alt="" />
+                        </div>
+                        <h1>回測收益率 1024.22%</h1>
+                    </div>
+                </div>
+            </div>
         </div>
         <div className="carouselDiv">
             <Carousel>

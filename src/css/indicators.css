@@ -28,6 +28,7 @@
 .indiDiv img{
     width: 180vw;
 }
+
 .ofaInfo{
     padding: 3.1vw;
     margin-left: 2vw;
@@ -108,6 +109,54 @@
     margin-bottom: 1vw;
     margin-left: 1vw;
 }
+
+/* returns */
+.returns{
+    margin-top: -7vw;
+    margin-bottom: 2vw;
+}
+.aboutusDiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.statement1{
+    color: #192338;
+    font-weight: 600;
+    text-align: center;
+}
+.returnsimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.3vw;
+}
+.stateCard1{
+    border-radius: 5vw;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 0 4px 16px 0 rgba(255,255,255,0.3);
+    margin: 12px;
+    padding: 2vw;
+}
+.stateCard1 h3{
+    font-size: 30px;
+}
+.stateCard1 h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    color: #192338;
+}
+.stateCard1 img{
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+#tsmc{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
 @media screen and (max-width: 1024px) {
 .ofaInfo h6{
     font-size: 3.2vw;
@@ -137,5 +186,30 @@
     margin-left: 8vw;
     margin-right: 8vw;
 }
-
+.returns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.aboutusDiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stateCard1{
+    width: fit-content;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.stateCard1 img{
+    width: 700px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+#tsmc{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 }
