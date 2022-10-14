@@ -205,7 +205,8 @@
 }
 .stateCard1 img{
     width: 700px;
-    margin: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     margin-bottom: 20px;
     margin-top: 0px;
 }
