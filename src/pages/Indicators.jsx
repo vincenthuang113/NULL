@@ -70,21 +70,21 @@ function Indicators(){
                         <div className="returnsimg">
                             <img src={aapl} alt="" />
                         </div>
-                        <h1>回測收益率 125.3%</h1>
+                        <h1>回測收益率 <br/> 125.3%</h1>
                     </div>
                     <div className="stateCard1" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonials]">
                         <h3 className='statement1'>TSMC</h3>
                         <div className="returnsimg">
                             <img id="tsmc" src={tsmc} alt="" />
                         </div>
-                        <h1>回測收益率 91.32%</h1>
+                        <h1>回測收益率 <br/> 91.32%</h1>
                     </div>
                     <div className="stateCard1" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonials]">
                         <h3 className='statement1'>ETH</h3>
                         <div className="returnsimg">
                             <img src={eth} alt="" />
                         </div>
-                        <h1>回測收益率 1024.22%</h1>
+                        <h1>回測收益率 <br/> 1024.22%</h1>
                     </div>
                 </div>
             </div>
