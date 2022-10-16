@@ -34,7 +34,7 @@ function Pricing() {
                 </div>
                 <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$66.66/月</span><br/>名額開放有限，請把握機會！</div>
                 {/* change it back to a href */}
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/ako9eDp6KvqW3GyX9" target="_blank">
+                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/D6XoV27Lss5k2XiX9" target="_blank">
                   即將上線{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
@@ -87,7 +87,7 @@ function Pricing() {
                   <span className="font-medium text-gray-400">/年 (USDT)</span>
                 </div>
                 <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$35/月</span><br/>名額開放有限，請把握機會！</div>
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/c5AhgGYivs4GXLp28" target="_blank">
+                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/mbB4HUSjtJ2BoMZf7" target="_blank">
                     即將上線{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
@@ -138,7 +138,7 @@ function Pricing() {
                   <span className="font-medium text-gray-400">/半年 (USDT)</span>
                 </div>
                 <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$45/月</span><br/>名額開放有限，請把握機會！</div>
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/pbHZn9YcRhvzKyiJ7" target="_blank">
+                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/wPDcJarWiyXnax4t9" target="_blank">
                     即將上線{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
