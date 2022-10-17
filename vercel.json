@@ -1,9 +1,8 @@
 
-
-  {
-    "routes": [
-      { "src": "/", "dest": "/" },
-      { "src": "/indicators", "dest": "/indicators" },
-      { "src": "/comingsoon", "dest": "/comingsoon" }
+{
+    "rewrites":  [
+      {"source": "/(.*)", "destination": "/"},
+      {"source": "/indicators", "destination": "/indicators"},
+      {"source": "/comingsoon", "destination": "/comingsoon"}
     ]
   }
