@@ -34,12 +34,13 @@ function Pricing() {
                 </div>
                 <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$66.66/月</span><br/>名額開放有限，請把握機會！</div>
                 {/* change it back to a href */}
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/3HF2A6asp1hqoCec7" target="_blank">
-                  立即購買{' '}
+                {/* href="https://forms.gle/3HF2A6asp1hqoCec7" */}
+                <Link className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" to="/comingsoon" target="_blank">
+                  即將上線{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
-                </a>
+                </Link>
               </div>
               <div className="font-medium mb-4">指標功能:</div>
               <ul className="text-gray-400 space-y-3 grow">
@@ -87,12 +88,13 @@ function Pricing() {
                   <span className="font-medium text-gray-400">/年 (USDT)</span>
                 </div>
                 <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$35/月</span><br/>名額開放有限，請把握機會！</div>
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/T3rqQbRGdb8qbo4b9" target="_blank">
-                  立即購買{' '}
+                {/* href="https://forms.gle/T3rqQbRGdb8qbo4b9" */}
+                <Link className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" to="/comingsoon" target="_blank">
+                  即將上線{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
-                </a>
+                </Link>
               </div>
               <div className="font-medium mb-4">指標功能以外，還有:</div>
               <ul className="text-gray-400 space-y-3 grow">
@@ -138,12 +140,13 @@ function Pricing() {
                   <span className="font-medium text-gray-400">/半年 (USDT)</span>
                 </div>
                 <div className="text-gray-400 mb-6"><span className='monthlyPricing'>相當於$45/月</span><br/>名額開放有限，請把握機會！</div>
-                <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" href="https://forms.gle/i11RPHA45wxUDB2F8" target="_blank">
-                  立即購買{' '}
+                {/* href="https://forms.gle/i11RPHA45wxUDB2F8" */}
+                <Link className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full shadow-lg group" to="/comingsoon" target="_blank">
+                  即將上線{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
-                </a>
+                </Link>
               </div>
               <div className="font-medium mb-4">指標功能:</div>
               <ul className="text-gray-400 space-y-3 grow">

@@ -8,7 +8,7 @@ function Comingsoon(){
         <section>
             <div id="comingsoon">
                 <div className="comingwords">
-                    <h1>指摽第二波目前尚未開賣，敬請期待！</h1>
+                    <h1>指摽第三波目前尚未開賣，敬請期待！</h1>
                     <h2>詳情請關注NULL Investing IG與Discord</h2>
                     <h4>為確保品質，指標販售有限人數</h4>
                     <a href="/">back</a>
