@@ -15,6 +15,9 @@ import Home from './pages/Home';
 import AboutUs from './pages/Aboutus';
 import Indicators from './pages/Indicators';
 import Comingsoon from './pages/Comingsoon';
+import Purchase from './pages/Purchase';
+import BIT from './pages/binanceInternal';
+import BET from './pages/binanceExternal';
 
 function App() {
 
@@ -42,6 +45,9 @@ function App() {
         {/* <Route path="/aboutus" element={<AboutUs />} /> */}
         <Route exact path="/indicators" element={<Indicators />} />
         <Route exact path="/comingsoon" element={<Comingsoon />}/>
+        <Route exact path="/purchase" element={<Purchase />}/>
+        <Route exact path='/binanceinternaltransfer' element={<BIT />}/>
+        <Route exact path='/binanceexternaltransfer' element={<BET />}/>
       </Routes>
       <ScrollButton/>
     </>

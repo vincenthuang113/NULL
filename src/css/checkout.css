@@ -1,0 +1,38 @@
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#contract{
+    color: blue;
+    text-decoration: underline;
+}
+.pdf{
+    color: #000;
+    margin-top: 10px;
+    text-align: center;
+}
+.sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.pdfa{
+    color: blue;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.upload{
+    margin-top: 5px;
+}
+.join{
+    color: blue;
+    text-decoration: underline;
+}
+.contractAlign{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 2vw;
+}

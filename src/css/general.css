@@ -431,3 +431,45 @@ iframe{
     padding-top: 10px;
     text-decoration: underline white;
   }
+
+
+/* binance internal transfer */
+.bitouter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.internalT{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 5vw;
+}
+.internalT h1{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+.internalT span{
+    color: red;
+}
+.bitimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.5vw;
+}
+.screenshotsbet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2vw;
+}
+.screenshotsbet img{
+    margin-right: 1vw;
+    border-radius: 10px;
+    border: white 2px solid;
+}
+.screenshotsbet div{
+    margin-right: 1vw;
+}
